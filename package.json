@@ -1,0 +1,14 @@
+{
+  "name": "amazon-cypress",
+  "version": "1.0.0",
+  "description": "Automated test case to search and checkout a product",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run -b electron --spec 'cypress/e2e/**/*'"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.7.0"
+  }
+}
